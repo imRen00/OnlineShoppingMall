@@ -20,7 +20,7 @@ primary key(CustomerId)
  );
  
  create table Products (
- ProductId int primary key NOT NULL,
+ ProductId int NOT NULL,
  ProductName varchar(100),
  ProductPrice DECIMAL(10, 2) NOT NULL,
  ProductCategory varchar(25),
