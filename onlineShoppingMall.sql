@@ -13,7 +13,7 @@ primary key(CustomerId)
  
  create table Payment (
  PaymentId int NOT NULL,
- Payment_Amount int,
+ Payment_Amount DECIMAL(10, 2),
  Payment_date date,
  Payment_method varchar(50), 
  primary key(PaymentId)
